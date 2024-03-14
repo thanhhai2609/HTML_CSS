@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai Tap</title>
+  </head>
+  <body style="background-color: rgb(253, 252, 170)">
+    <h1 style="color: blue; border: 2px; background-color: rgb(197, 255, 255)">
+      ĐĂNG KÝ HỌC VIÊN
+    </h1>
+    <p>Họ và tên <input type="text" style="width: 200px" /></p>
+    <p>Ngày sinh <input type="datetime" style="width: 200px" /></p>
+    <p>
+      Giới tính <input type="radio" name="gender" />Nam
+      <input type="radio" name="gender" /> Nữ
+    </p>
+    <p>
+      Địa chỉ
+      <input
+        type="text"
+        style="width: 200px; height: 50px; margin-left: 20px"
+      />
+    </p>
+    <p>
+      Lớp
+      <select id="class" name="class" style="margin-left: 40px">
+        <option value="chosse" disabled selected hidden>-- Chọn lớp --</option>
+        <option value="KHMT">KHMT</option>
+        <option value="CNTT">CNTT</option>
+        <option value="HTTT">HTTT</option>
+        <option value="KTPM">KTPM</option>
+      </select>
+    </p>
+    <p>Email <input type="text" style="width: 200px; margin-left: 28px" /></p>
+    <p>
+      Điện thoại <input type="number" style="width: 200px; appearance: none" />
+    </p>
+    <input type="button" value="Đăng ký" style="margin-left: 70px" />
+    <input type="button" value="Nhập lại" />
+  </body>
+</html>
